@@ -1,8 +1,7 @@
-# $Revision:$, $Date:$
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
+
 %define		pdir	XML
 %define		pnam	Entities
 %include	/usr/lib/rpm/macros.perl
@@ -60,10 +59,3 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorlib}/XML/Entities
 %{_mandir}/man1/*
 %{_mandir}/man3/*
-
-%define	date	%(echo `LC_ALL="C" date +"%a %b %d %Y"`)
-%changelog
-* %{date} PLD Team <feedback@pld-linux.org>
-All persons listed below can be reached at <cvs_login>@pld-linux.org
-
-$Log:$

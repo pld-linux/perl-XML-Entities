@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	Entities
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Entities - Decode strings with XML entities
 Summary(pl.UTF-8):	XML::Entities - dekodowania łańcuchów znaków zawierających encje XML
 Name:		perl-XML-Entities
